@@ -1,0 +1,29 @@
+.sidebar-wrapper-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    align-items: flex-start;
+    transition: transform 0.3s;
+    overflow-x: auto;
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    min-height: 100%;
+    background-color: #004b76;
+    z-index: 9999;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    box-shadow: 0px -5px 15px #0000001a;
+  }
+   .user-image{
+    margin: 20px auto;
+    border-radius: 50%;
+   }
+   .user-role{
+    color: #feaf00;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+   }

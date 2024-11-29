@@ -1,0 +1,11 @@
+.img-round {
+    border-radius: 50px;
+}
+.search-box {
+    display: flex;
+    justify-content: end;
+}
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+}

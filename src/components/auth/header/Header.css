@@ -1,0 +1,12 @@
+.header-container {
+    width: "85vw";
+    border: "2px solid yellow";
+    height: "10vh";
+    top: 0px;
+}
+
+.header-container-auth {
+    width: "85vw";
+    height: '10vh';
+    top: 0px;
+}

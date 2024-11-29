@@ -1,0 +1,200 @@
+{
+  "roleList": [
+    {
+      "email": "admin@gmail.com",
+      "role": "admin",
+      "claims": [
+        "viewDashboard",
+        "editUser",
+        "deleteUser",
+        "addUser",
+        "viewAdminCard",
+        "viewDealerCard",
+        "viewSupplierCard"
+      ],
+      "userName": "Admin John"
+    },
+    {
+      "email": "dealer@gmail.com",
+      "role": "dealer",
+      "claims": ["viewDashboard","viewDealerCard","addUser", "editUser","deleteUser"],
+      "userName": "Dealer John"
+    },
+    {
+      "email": "supplier@gmail.com",
+      "role": "supplier",
+      "claims": ["viewDashboard", "viewSupplierCard","addUser", "editUser", "deleteUser"],
+      "userName": "Supplier John"
+    }
+  ],
+  "adminDataLists": [
+    {
+      "id": 1,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "88829001008",
+      "createdAt": "2023-10-15T12:34:56Z",
+      "role": "Admin",
+      "actions": ""
+    },
+    {
+      "id": 2,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "88829001008",
+      "createdAt": "2023-08-22T08:15:30Z",
+      "role": "Admin",
+      "actions": ""
+    },
+    {
+      "id": 3,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "90023881008",
+      "createdAt": "2023-09-10T10:45:12Z",
+      "role": "Admin",
+      "actions": ""
+    },
+    {
+      "id": 4,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "Bob Brown",
+      "email": "bob.brown@example.com",
+      "phone": "88823991008",
+      "createdAt": "2023-07-14T14:25:48Z",
+      "role": "Admin",
+      "actions": ""
+    },
+    {
+      "id": 5,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "Cathy Green",
+      "email": "cathy.green@example.com",
+      "phone": "88823881008",
+      "createdAt": "2023-06-05T16:40:25Z",
+      "role": "Admin",
+      "actions": ""
+    }
+  ],
+  "supplierDataLists": [
+    {
+      "id": 1,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "88829001008",
+      "createdAt": "2023-10-15T12:34:56Z",
+      "role": "Supplier",
+      "actions": ""
+    },
+    {
+      "id": 2,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "88829001008",
+      "createdAt": "2023-08-22T08:15:30Z",
+      "role": "Supplier",
+      "actions": ""
+    },
+    {
+      "id": 3,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "90023881008",
+      "createdAt": "2023-09-10T10:45:12Z",
+      "role": "Supplier",
+      "actions": ""
+    },
+    {
+      "id": 4,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "Bob Brown",
+      "email": "bob.brown@example.com",
+      "phone": "88823991008",
+      "createdAt": "2023-07-14T14:25:48Z",
+      "role": "Supplier",
+      "actions": ""
+    },
+    {
+      "id": 5,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "Cathy Green",
+      "email": "cathy.green@example.com",
+      "phone": "88823881008",
+      "createdAt": "2023-06-05T16:40:25Z",
+      "role": "Supplier",
+      "actions": ""
+    }
+  ],
+  "dealerDataLists": [
+    {
+      "id": 1,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "88829001008",
+      "createdAt": "2023-10-15T12:34:56Z",
+      "role": "Dealer",
+      "actions": ""
+    },
+    {
+      "id": 2,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "88829001008",
+      "createdAt": "2023-08-22T08:15:30Z",
+      "role": "Dealer",
+      "actions": ""
+    },
+    {
+      "id": 3,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "90023881008",
+      "createdAt": "2023-09-10T10:45:12Z",
+      "role": "Dealer",
+      "actions": ""
+    },
+    {
+      "id": 4,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "Bob Brown",
+      "email": "bob.brown@example.com",
+      "phone": "88823991008",
+      "createdAt": "2023-07-14T14:25:48Z",
+      "role": "Dealer",
+      "actions": ""
+    },
+    {
+      "id": 5,
+      "img": "https://getstream.io/random_png/?name=Jitendra",
+      "name": "Cathy Green",
+      "email": "cathy.green@example.com",
+      "phone": "88823881008",
+      "createdAt": "2023-06-05T16:40:25Z",
+      "role": "Dealer",
+      "actions": ""
+    }
+  ],
+
+  "rolePermissions": {
+    "admin": [
+      "viewDashboard",
+      "editUser",
+      "deleteUser",
+      "addUser",
+      "viewAdminCard",
+      "viewDealerCard",
+      "viewSupplierCard"
+    ],
+    "dealer": ["viewDashboard", "viewDealerCard","addUser", "editUser"],
+    "supplier": ["viewDashboard", "viewSupplierCard","addUser","editUser"]
+  }
+}

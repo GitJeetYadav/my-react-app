@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+#root {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.link-list{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 50px 0;
+}
+.link {
+  width: 100%;
+  padding: 8px 15px;
+  border-radius: 7px;
+  display: block;
+  background-color: transparent;
+}
+.link.active {
+  background-color: #feaf00;
+}

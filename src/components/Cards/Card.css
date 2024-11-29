@@ -1,0 +1,7 @@
+.card-row {
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px
+}

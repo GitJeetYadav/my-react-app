@@ -1,0 +1,20 @@
+.card-row {
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px
+}
+.cards {
+    background-color: yellow;
+}
+.dashboard-containers {
+    height: 100vh; /* or a fixed height, e.g., 600px */
+    overflow-y: auto; /* enables vertical scrolling */
+    padding: 20px;
+}
+.chart-container {
+    height: 100vh; /* or a fixed height, e.g., 600px */
+    overflow-y: auto; /* enables vertical scrolling */
+    padding: 20px;
+}

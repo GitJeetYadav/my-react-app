@@ -1,0 +1,113 @@
+.login-container {
+    background-color: orange;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden !important;
+}
+.login-box {
+    width: 40%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    border: 1px solid #80808047;
+    height: 45px;
+    padding: 10px;
+}
+label {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .centered-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 25px 40px;
+  }
+  
+  form {
+    min-width: 100%;
+  }
+  
+  .submit-btn {
+    min-width: 100%;
+    background: #feaf00;
+    margin-top: 25px;
+    color: white;
+  }
+  .login-heading-text {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .display-linebreak {
+    white-space: pre-line;
+  }
+  .azure-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 25px 40px;
+  }
+
+  @media (max-width: 426px) and (min-width: 320px) {
+    
+    .login-heading-text {
+      font-size: 13px;
+    }
+    .login-container {
+      height: 100vh;
+    }
+    .login-box {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 1025px) and (min-width: 767px) {
+    
+    .login-heading-text {
+      font-size: 15px;
+    }
+    .login-container {
+      height: 100vh;
+    }
+    .login-box {
+      width: 80%;
+      min-height: auto;
+    }
+  }
+
+  .card-row {
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px
+}

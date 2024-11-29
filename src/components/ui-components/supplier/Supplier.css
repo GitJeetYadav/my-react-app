@@ -1,0 +1,8 @@
+.supplier-content {
+    margin: 0px 25px;
+}
+.supplier-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
